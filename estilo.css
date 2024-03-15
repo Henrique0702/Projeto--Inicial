@@ -1,5 +1,5 @@
 body {
-    background-color:antiquewhite;
+    background-color:rgb(78, 0, 131);
     margin: 10%;
     padding: auto;
 
@@ -8,6 +8,9 @@ body {
 h1 {
     text-align: center;
     font-weight: bold;
-    color: red;
+    color: rgb(54, 206, 233);
+}
+div {
+    text-align: center;
 }
 
