@@ -34,8 +34,7 @@ function alertar(event){
 
     const url = `https://viacep.com.br/ws/${cep.value}/json`;
     
-    fetch(url)
-    .then(function(resposta){
+    fetch(url).then(function(resposta){
        return resposta.json();
     })
     .then(
@@ -44,7 +43,6 @@ function alertar(event){
         bairro.value = dadosDoEndereco.bairro;
         cidade.value = dadosDoEndereco.localidade;
         estado.value = dadosDoEndereco.uf;
-        complemento.value = dadosDoEndereco.complemento;
 
            saidaDeDados(); // chamada da função
       }
